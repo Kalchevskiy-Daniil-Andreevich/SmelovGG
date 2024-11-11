@@ -1,0 +1,148 @@
+﻿@{
+    ViewData["Title"] = "Student Management";
+}
+
+<h1>Список студентов</h1>
+
+<div>
+    <label>Формат ответа:</label>
+    <select id="responseFormat">
+        <option value="json">JSON</option>
+        <option value="xml">XML</option>
+    </select>
+    <button onclick="loadStudents()">Загрузить студентов</button>
+</div>
+
+<div>
+    <label>Имя: <input type="text" id="studentName"></label>
+    <label>Телефон: <input type="text" id="studentPhone"></label>
+    <button onclick="createStudent()">Добавить студента</button>
+</div>
+
+<div id="studentList"></div>
+
+<script>
+    // Базовый URL API для студентов
+    const apiBaseUrl = '/api/students';
+
+    // Получение выбранного формата из интерфейса
+
+    function getSelectedFormat() {
+        const formatSelect = document.getElementById('responseFormat');
+        return formatSelect.value;
+    }
+
+    // Загрузка списка студентов
+async function loadStudents() {
+    const responseFormat = getSelectedFormat();
+    const url = `${apiBaseUrl}`;
+    console.log("Запрос к URL:", url);
+
+    const response = await fetch(url, {
+        headers: { 'Accept': responseFormat === 'json' ? 'application/json' : 'application/xml' }
+    });
+
+    if (!response.ok) {
+        console.error("Ошибка загрузки студентов:", response.status, response.statusText);
+        return;
+    }
+
+    let students;
+    if (responseFormat === "json") {
+        students = await response.json();
+    } else if (responseFormat === "xml") {
+        const xmlText = await response.text();
+        students = parseXmlToJson(xmlText);
+    }
+
+    displayStudents(students);
+}
+
+
+    // Функция для парсинга XML-ответа в JSON
+    function parseXmlToJson(xmlText) {
+        const parser = new DOMParser();
+        const xmlDoc = parser.parseFromString(xmlText, "application/xml");
+        const studentElements = xmlDoc.getElementsByTagName("Student");
+
+        const students = [];
+        for (let i = 0; i < studentElements.length; i++) {
+            const student = {
+                id: studentElements[i].getElementsByTagName("ID")[0].textContent,
+                name: studentElements[i].getElementsByTagName("Name")[0].textContent,
+                phone: studentElements[i].getElementsByTagName("Phone")[0].textContent
+            };
+            students.push(student);
+        }
+        return students;
+    }
+
+    // Отображение списка студентов
+    function displayStudents(students) {
+        const studentList = document.getElementById('studentList');
+        studentList.innerHTML = '';
+
+        students.forEach(student => {
+            const studentDiv = document.createElement('div');
+            studentDiv.innerHTML = `
+                <b>${student.name}</b> - ${student.phone}
+                <button onclick="deleteStudent(${student.id})">Удалить</button>
+                <button onclick="editStudent(${student.id}, '${student.name}', '${student.phone}')">Редактировать</button>
+            `;
+            studentList.appendChild(studentDiv);
+        });
+    }
+
+    // Создание студента
+    async function createStudent() {
+        const name = document.getElementById('studentName').value;
+        const phone = document.getElementById('studentPhone').value;
+
+        const response = await fetch(apiBaseUrl, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ name, phone })
+        });
+
+        if (response.ok) {
+            loadStudents();
+        } else {
+            alert('Ошибка при добавлении студента');
+        }
+    }
+
+    // Удаление студента
+    async function deleteStudent(id) {
+        const response = await fetch(`${apiBaseUrl}/${id}`, { method: 'DELETE' });
+
+        if (response.ok) {
+            loadStudents();
+        } else {
+            alert('Ошибка при удалении студента');
+        }
+    }
+
+    // Редактирование студента
+    async function editStudent(id, name, phone) {
+        const newName = prompt('Новое имя:', name);
+        const newPhone = prompt('Новый телефон:', phone);
+
+        if (newName !== null && newPhone !== null) {
+            const response = await fetch(`${apiBaseUrl}/${id}`, {
+                method: 'PUT',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ id, name: newName, phone: newPhone })
+            });
+
+            if (response.ok) {
+                loadStudents();
+            } else {
+                alert('Ошибка при обновлении студента');
+            }
+        }
+    }
+</script>

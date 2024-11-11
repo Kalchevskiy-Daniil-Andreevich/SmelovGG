@@ -1,0 +1,192 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Universe\\STRWP\\thirdLab\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{271B854C-189E-452F-99CE-C51FCBFDA57C}|thirdLab\\thirdLab.csproj|d:\\universe\\strwp\\thirdlab\\thirdlab\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{271B854C-189E-452F-99CE-C51FCBFDA57C}|thirdLab\\thirdLab.csproj|solutionrelative:thirdlab\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271B854C-189E-452F-99CE-C51FCBFDA57C}|thirdLab\\thirdLab.csproj|d:\\universe\\strwp\\thirdlab\\thirdlab\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{271B854C-189E-452F-99CE-C51FCBFDA57C}|thirdLab\\thirdLab.csproj|solutionrelative:thirdlab\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271B854C-189E-452F-99CE-C51FCBFDA57C}|thirdLab\\thirdLab.csproj|d:\\universe\\strwp\\thirdlab\\thirdlab\\controller\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271B854C-189E-452F-99CE-C51FCBFDA57C}|thirdLab\\thirdLab.csproj|solutionrelative:thirdlab\\controller\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271B854C-189E-452F-99CE-C51FCBFDA57C}|thirdLab\\thirdLab.csproj|d:\\universe\\strwp\\thirdlab\\thirdlab\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271B854C-189E-452F-99CE-C51FCBFDA57C}|thirdLab\\thirdLab.csproj|solutionrelative:thirdlab\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271B854C-189E-452F-99CE-C51FCBFDA57C}|thirdLab\\thirdLab.csproj|d:\\universe\\strwp\\thirdlab\\thirdlab\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{271B854C-189E-452F-99CE-C51FCBFDA57C}|thirdLab\\thirdLab.csproj|solutionrelative:thirdlab\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271B854C-189E-452F-99CE-C51FCBFDA57C}|thirdLab\\thirdLab.csproj|d:\\universe\\strwp\\thirdlab\\thirdlab\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{271B854C-189E-452F-99CE-C51FCBFDA57C}|thirdLab\\thirdLab.csproj|solutionrelative:thirdlab\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271B854C-189E-452F-99CE-C51FCBFDA57C}|thirdLab\\thirdLab.csproj|d:\\universe\\strwp\\thirdlab\\thirdlab\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271B854C-189E-452F-99CE-C51FCBFDA57C}|thirdLab\\thirdLab.csproj|solutionrelative:thirdlab\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271B854C-189E-452F-99CE-C51FCBFDA57C}|thirdLab\\thirdLab.csproj|d:\\universe\\strwp\\thirdlab\\thirdlab\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271B854C-189E-452F-99CE-C51FCBFDA57C}|thirdLab\\thirdLab.csproj|solutionrelative:thirdlab\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271B854C-189E-452F-99CE-C51FCBFDA57C}|thirdLab\\thirdLab.csproj|d:\\universe\\strwp\\thirdlab\\thirdlab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271B854C-189E-452F-99CE-C51FCBFDA57C}|thirdLab\\thirdLab.csproj|solutionrelative:thirdlab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271B854C-189E-452F-99CE-C51FCBFDA57C}|thirdLab\\thirdLab.csproj|d:\\universe\\strwp\\thirdlab\\thirdlab\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271B854C-189E-452F-99CE-C51FCBFDA57C}|thirdLab\\thirdLab.csproj|solutionrelative:thirdlab\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\Universe\\STRWP\\thirdLab\\thirdLab\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "thirdLab\\Models\\Student.cs",
+              "ToolTip": "D:\\Universe\\STRWP\\thirdLab\\thirdLab\\Models\\Student.cs",
+              "RelativeToolTip": "thirdLab\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T09:12:46.535Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Universe\\STRWP\\thirdLab\\thirdLab\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "thirdLab\\Models\\AppDbContext.cs",
+              "ToolTip": "D:\\Universe\\STRWP\\thirdLab\\thirdLab\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "thirdLab\\Models\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T09:13:24.007Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Universe\\STRWP\\thirdLab\\thirdLab\\appsettings.json",
+              "RelativeDocumentMoniker": "thirdLab\\appsettings.json",
+              "ToolTip": "D:\\Universe\\STRWP\\thirdLab\\thirdLab\\appsettings.json",
+              "RelativeToolTip": "thirdLab\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-11T18:59:52.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Universe\\STRWP\\thirdLab\\thirdLab\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "thirdLab\\appsettings.Development.json",
+              "ToolTip": "D:\\Universe\\STRWP\\thirdLab\\thirdLab\\appsettings.Development.json",
+              "RelativeToolTip": "thirdLab\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-11T18:59:49.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Universe\\STRWP\\thirdLab\\thirdLab\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "thirdLab\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Universe\\STRWP\\thirdLab\\thirdLab\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "thirdLab\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T18:20:50.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\Universe\\STRWP\\thirdLab\\thirdLab\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "thirdLab\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\Universe\\STRWP\\thirdLab\\thirdLab\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "thirdLab\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T18:20:41.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Universe\\STRWP\\thirdLab\\thirdLab\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "thirdLab\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Universe\\STRWP\\thirdLab\\thirdLab\\Properties\\launchSettings.json",
+              "RelativeToolTip": "thirdLab\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-11T18:18:00.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Universe\\STRWP\\thirdLab\\thirdLab\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "thirdLab\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Universe\\STRWP\\thirdLab\\thirdLab\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "thirdLab\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAASwBkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T18:07:43.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "D:\\Universe\\STRWP\\thirdLab\\thirdLab\\Controller\\StudentsController.cs",
+              "RelativeDocumentMoniker": "thirdLab\\Controller\\StudentsController.cs",
+              "ToolTip": "D:\\Universe\\STRWP\\thirdLab\\thirdLab\\Controller\\StudentsController.cs",
+              "RelativeToolTip": "thirdLab\\Controller\\StudentsController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T09:15:48.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Universe\\STRWP\\thirdLab\\thirdLab\\Program.cs",
+              "RelativeDocumentMoniker": "thirdLab\\Program.cs",
+              "ToolTip": "D:\\Universe\\STRWP\\thirdLab\\thirdLab\\Program.cs",
+              "RelativeToolTip": "thirdLab\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvyoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T17:54:23.714Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

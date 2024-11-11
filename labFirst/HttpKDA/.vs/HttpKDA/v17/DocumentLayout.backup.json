@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Universe\\STRWP\\labFirst\\HttpKDA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{89FF2730-50A0-4D12-9B34-C30E9172A839}|HttpKDA\\HttpKDA.csproj|d:\\universe\\strwp\\labfirst\\httpkda\\httpkda\\httpkda.ashx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89FF2730-50A0-4D12-9B34-C30E9172A839}|HttpKDA\\HttpKDA.csproj|solutionrelative:httpkda\\httpkda.ashx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HttpKDA.ashx.cs",
+              "DocumentMoniker": "D:\\Universe\\STRWP\\labFirst\\HttpKDA\\HttpKDA\\HttpKDA.ashx.cs",
+              "RelativeDocumentMoniker": "HttpKDA\\HttpKDA.ashx.cs",
+              "ToolTip": "D:\\Universe\\STRWP\\labFirst\\HttpKDA\\HttpKDA\\HttpKDA.ashx.cs",
+              "RelativeToolTip": "HttpKDA\\HttpKDA.ashx.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAYwHAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T07:21:32.888Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
